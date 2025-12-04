@@ -561,7 +561,7 @@ ping 22.22.22.223
 ### NetOps-PH Setup
 > Login: root
 > Pass: C1sc0123
-
+> ip -4 addr (get the ip to ssh)
 1. Get the MAC Address for the Bridge connection
 VMWare > NetOps-PH Settings > NetAdapter (2, 3, & 4) > Advance > MAC Address
 
@@ -2158,6 +2158,7 @@ nano /opt/jumpserver/config/config.txt
 !@NetOps-PH
 jmsctl.sh restart
 ~~~
+
 
 
 
